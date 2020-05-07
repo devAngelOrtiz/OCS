@@ -1,0 +1,76 @@
+nueva categoria
+		<form id="formcategoria" action="" method="post" enctype="multipart/form-data">
+			<table >
+				<tr>					
+					<td>
+						<span>Nombre: </span>
+					</td>
+					<td>
+						<input class="entrada-texto" name="nombre" id="nombre" type="text" placeholder="Nombre de la categoria" autofocus required />
+					</td>
+			   	</tr>
+			</table>
+		</form>
+
+			
+			
+
+nuevo producto
+		
+			<form action="" method="post" enctype="multipart/form-data">
+				<table >
+					<tr>					
+						<td>
+							<span>Nombre: </span>
+						</td>
+						<td>
+							<input class="entrada-texto" name="nombre" id="nombre" type="text" placeholder="Nombre del producto" autofocus required />
+						</td>
+				   	</tr>
+				   	<tr>					
+						<td>
+							<span>Marca: </span>
+						</td>
+						<td>
+							<input class="entrada-texto" name="nombre" id="nombre" type="text" placeholder="Marca" autofocus required />
+						</td>
+				   	</tr>
+				   	<tr>					
+						<td>
+							<span>Precio: </span>
+						</td>
+						<td>
+							<input class="entrada-texto" name="nombre" id="nombre" type="number" placeholder="Precio" autofocus required />
+						</td>
+				   	</tr>
+				   	<tr>					
+						<td>
+							<span>Descripcion: </span>
+						</td>
+						<td>
+							<textarea rows="5"></textarea>
+						</td>
+				   	</tr>
+				   	<tr>					
+						<td>
+							<span>Categoria: </span>
+						</td>
+						<td>
+							<select>
+								<option value="volvo">Volvo</option>
+								<option value="saab">Saab</option>
+								<option value="mercedes">Mercedes</option>
+								<option value="audi">Audi</option>
+							</select>
+						</td>
+				   	</tr>
+				   	<tr>					
+						<td>
+							<span>Imagen: </span>
+						</td>
+						<td>
+							<input class="entrada-texto" type="file" name="file"  multiple="" accept="image/jpeg, image/png" required>
+						</td>
+				   	</tr>
+				</table>
+			</form>

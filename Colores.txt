@@ -1,0 +1,11 @@
+Inicio de sesión
+Azul marino: #34495e
+Azul Cielo: #3498db
+Gris: #dadada
+
+Administrador
+Azul marino: #34495e
+Azul Cielo: #3498db
+Gris de fondo: #ecf0f1
+
+La letra es en Google fonts, Lato

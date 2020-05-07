@@ -1,0 +1,448 @@
+$azul = #34495E;
+$azulclaro=#3498DB;
+$gris = #DADADA;
+
+*:focus { 
+	outline: none; 
+}
+
+/*ERROR*/
+.texterror{
+	color:#ff0000;
+	font-size: 120%;
+}
+
+.fondo {
+	background: #34495E;
+}
+
+/*Productos*/
+.producto{
+	width: 200px;
+	height: 200px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.productoeli{
+	width: 200px;
+	height: 200px;
+}
+
+/*Acciones*/
+.ico-acciones{
+	width: 25px;
+	height: 25px;
+}
+
+.titulo a{
+	color:#ffffff;
+	float:right;
+	text-decoration:none; 
+	margin-right: 15px;
+}
+
+/*Lista*/
+.lista{
+	margin-left: 1%;
+	margin-top: 1%;
+	width: 82%;
+	float:left;
+}
+
+.titulo{
+	background: #3498DB;
+	width: 100%;
+	height: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.titulo span{
+	color:#ffffff;
+	font-size: 150%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 40%;
+}
+
+.contenido{
+	margin-top: 10px;
+	padding: 3%;
+	width: 94%;
+	height:400px;
+	overflow:scroll;
+	background: #DADADA;
+	border-radius: 0px 0px 30px 0px;
+
+}
+
+.fr{
+	float: right;
+}
+
+.fl{
+	float: left;
+}
+.fc{
+	float: left;
+}
+
+.text{
+	color:#000000;
+	font-size: 120%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.r{
+	color:#000000;
+	font-size: 120%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	float: right;
+}
+.l{
+	color:#000000;
+	font-size: 120%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+.contenido textarea{
+	font-size: 100%;
+	width: 90%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.contenido select{
+	font-size: 100%;
+	width: 91%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.contenido input.date{
+	font-size: 100%;
+	width: 88%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.contenido table
+{
+	width: 100%;
+	border: 0px;
+}
+
+.contenido table tr.fondo {
+    background-color:#34495E;
+    color:#ffffff;
+    font-size: 150%;
+    text-align: center;
+}
+
+.contenido table td.col
+{
+	font-size: 100%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	width: 25%;
+	height: 4%;
+}
+
+.contenido table td.nombre
+{
+	width: 79%;
+	font-size: 120%;
+	padding-left: 2%;
+}
+
+.contenido table td.cliente
+{
+	width: 60%;
+	font-size: 120%;
+	padding-left: 2%;
+}
+
+.contenido table td.acciones
+{
+	width: 7%;
+}
+
+.icoacc
+{
+	padding-left: 5px;
+	height: 40px;
+	width: 40px;
+}
+
+.icoacc:hover
+{
+	cursor:pointer;
+}
+
+div.fileinputs {
+	position: relative;
+}
+
+div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+
+/*MENU*/
+.menu{
+	width: 15%;
+	height: 500px;
+	background: #34495E;
+	margin-top: 1%;
+	margin-left: 1%;
+	padding-bottom: 10px;
+	float:left;
+	border-radius: 0px 0px 0px 30px;
+}
+
+.menu a{
+	color:#ffffff;
+	font-size: 130%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	text-decoration:none; 
+	display: block;
+}
+
+.menu label{
+	color:#ffffff;
+	font-size: 150%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	display: block;
+	background-color: #3498DB;
+}
+
+.menu a:hover{
+	color:#ff4444;
+	font-size: 140%;
+}
+
+/*Encabezaqdo de pagina*/
+.encabezado{
+	background: #34495E url(../img/logo.png) top left no-repeat;
+	background-size: 300px ;
+	height: 100px;
+	width: 98%;
+	margin-left: 1%;
+	border-radius: 30px 30px 0px 0px;
+}
+
+.encabezado a{
+	color:#ffffff;
+	font-size: 100%;
+	text-align: right;
+	padding-right: 40px;
+}
+.encabezado a:hover{
+	color:#ff4444;
+	font-size: 110%;
+}
+
+.encabezado-table{
+	margin-top: 20px;
+	padding-right: 10px;
+}
+
+.encabezado-ico{
+	width: 20px;
+	height: 20px;
+	color: #ffffff;
+}
+
+.encabezado label{
+	color:#ffffff;
+	font-size: 130%;
+	text-align: right;
+	padding-right: 50px;
+}
+
+
+.logo{
+	margin-top: 3%;
+	margin-left: 35%;
+}
+
+/*Logueo del administrador*/
+.login{
+	width: 30%;
+	height: 250px;
+	margin-top: 3%;
+	margin-left: 35%;
+	background: #DADADA;
+}
+
+.login-table{
+	margin-left: 10%;
+	margin-left: 10%;
+	width: 82%;
+}
+
+.login-text{
+	font-size: 150%;
+	color: #000000;
+	text-align: center;
+	width: 100%;
+	padding-top: 5%;
+}
+
+.login-ico{
+	width: 23px;
+	height: 23px;
+	background: #34495E;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.entrada-texto {
+	font-size: 100%;
+	width: 90%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.boton
+{
+	font-size: 110%;
+	color: #ffffff;
+	width: 30%;
+	margin-top: 5%;
+	margin-left: 35%;
+	background-color: #3498DB;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border: 0px;
+}
+.boton:hover
+{
+	font-size: 120%;
+	color: #ffffff;
+	width: 32%;
+	margin-top: 5%;
+	margin-left: 34%;
+	background-color: #3498DB;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border: 0px;
+}
+.mostrar
+{
+	font-size: 110%;
+	color: #ffffff;
+	width: 220px;
+	height: 42px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: #3498DB;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border: 0px;
+}
+.mostrar:hover
+{
+	font-size: 120%;
+}
+
+.aceptar:disabled {
+    background: #808080;
+}
+
+.cancelar:disabled {
+    background: #808080;
+}
+
+.aceptar
+{
+	font-size: 110%;
+	color: #ffffff;
+	width: 150px;
+	height: 42px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: #3498DB;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border: 0px;
+}
+.aceptar:hover
+{
+	font-size: 120%;
+}
+.cancelar
+{
+	font-size: 110%;
+	color: #ffffff;
+	width: 150px;
+	height: 42px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: #ff0000;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border: 0px;
+}
+.cancelar:hover
+{
+	font-size: 120%;
+}
+.aceptarmini
+{
+	font-size: 100%;
+	color: #ffffff;
+	width: 100px;
+	height: 32px;
+	margin-top: 5px;
+	margin-left: 5px;
+	background-color: #3498DB;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border: 0px;
+}
+.aceptarmini:hover
+{
+	font-size: 110%;
+}
+.cancelarmini
+{
+	font-size: 100%;
+	color: #ffffff;
+	width: 100px;
+	height: 32px;
+	margin-top: 5px;
+	margin-left: 5px;
+	background-color: #ff0000;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border: 0px;td
+}
+.cancelarmini:hover
+{
+	font-size: 110%;
+}

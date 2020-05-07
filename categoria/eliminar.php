@@ -1,0 +1,9 @@
+<?php
+	include('../funciones/DB.php');
+	if($_POST['acc']=='eli')
+	{
+		eliCategoria($_POST['id']);
+	}
+	else
+		delCategoria($_POST['id']);
+?>

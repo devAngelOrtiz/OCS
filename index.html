@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css-jss/estilos.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="css-jss/index.js"></script>
+	<title>Inicio Sesion :: Administrador</title>
+</head>
+<body class="fondo ">
+	<img class="logo" src="img/logo.png"/>
+	<div class="login">
+		<form id ="login">
+			<p class='login-text'>Iniciar Sesión</p>
+			<div id="error"></div>
+			<table class="login-table">
+			   	<tr>
+			    	<td>
+			   			<img class="login-ico" src="img/l_usuario.png"/>
+					</td>
+			    	<td>
+			      		<input class="entrada-texto" name="usuario" id="usuario" type="text" placeholder="Usuario" autofocus required />
+			    	</td>
+		   		</tr>
+		   		<tr>
+			    	<td>
+			   			<img class="login-ico" src="img/l_password.png"/>
+					</td>
+			    	<td>
+			      		<input class="entrada-texto" name="contra" id="contra" type="password" placeholder="Contraseña"required />
+			    	</td>
+		   		</tr>
+	   		</table>
+			<input name="submit" type="submit" id="boton" value="Iniciar" class="boton" />
+		</form>
+	</div>
+</body>
+
+
+</html>
